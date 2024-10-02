@@ -27,3 +27,5 @@ Use Docker Compose to deploy Dependency-Track, PostgreSQL, and NGINX:
 
 Access Dependency-Track securely via your preferred web browser
 
+# Security
+The passwords in docker compose file are in plain-text and should not be set that way. This is only for demonstration purposes, and passwords should be pulled securely from a vault.
